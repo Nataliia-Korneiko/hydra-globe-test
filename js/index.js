@@ -5,13 +5,18 @@ const navigationList = document.querySelector(".navigation__list");
 
 const handleShow = () => {
   navigationList.classList.add("navigation__list-show");
-  buttonClose.classList.add("navigation__button-close-show");
 };
 
 const handleClose = () => {
   navigationList.classList.remove("navigation__list-show");
-  buttonClose.classList.remove("navigation__button-close-show");
+};
+
+const handleScroll = () => {
+  if (pageYOffset) {
+    navigationList.classList.remove("navigation__list-show");
+  }
 };
 
 buttonBurger.addEventListener("click", handleShow);
 buttonClose.addEventListener("click", handleClose);
+window.addEventListener("scroll", handleScroll);

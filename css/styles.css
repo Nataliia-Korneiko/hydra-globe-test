@@ -513,15 +513,8 @@ body {
     background-color: transparent;
     outline: none;
     border: none;
-    transition: 3s ease-in-out;
     z-index: 3;
     cursor: pointer;
-  }
-
-  .navigation__button-close-show {
-    transform: translateX(0%);
-    transition: 3s ease-in-out;
-    z-index: 3;
   }
 
   .navigation__link {
