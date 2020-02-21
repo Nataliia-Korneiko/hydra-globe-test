@@ -82,7 +82,7 @@ body {
 .header {
   padding-top: 40px;
   min-height: 750px;
-  background-image: url(../img/banner/banner-01.png);
+  background-image: url(../img/backdrop/backdrop-01.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -421,7 +421,7 @@ body {
   .header {
     width: 100vw;
     min-height: 100vh;
-    background-image: url(../img/banner/banner-02.png);
+    background-image: url(../img/backdrop/backdrop-02.png);
   }
 
   .contacts__list {
@@ -479,7 +479,7 @@ body {
     height: 100vh;
     transition: 3s ease-in-out;
     z-index: 2;
-    background-image: url(../img/banner/banner-03.png);
+    background-image: url(../img/backdrop/backdrop-03.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
